@@ -1,12 +1,10 @@
-body{
-                  background-color: black;
-}
-h1{
-                  font-family: fantasy;
-                  color: crimson;
-                  
-}
-p{
-                  font-family: fantasy;
-                  color: white;
+img{
+    width: 500px;
+    height:auto;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    /*box-shadow: 5px 5px 0px #424242;*/
+    padding: 10px;
+    border: 3px solid #000000
 }
