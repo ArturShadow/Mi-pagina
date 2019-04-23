@@ -1,39 +1,39 @@
+
 *{
-    margin: 0px;
     padding: 0px;
-
+    margin: 0px;
 }
 
-header, .main, footer{
-    width: 90%;
-    margin: 20px auto;
-    max-width: 1000px;
-}
-header nav{
-    background: #1b11a5;
-    overflow: hidden;
-}
-header nav ul{
+ul, ol{
     list-style: none;
 }
-header nav ul li{
+.nav li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: #6d29ad;
+}
+    
+
+.nav > li{
     float: left;
 }
-header nav ul li ul{
-    display: none;
+.nav li ul{
+    display: none; 
     position: absolute;
     min-width: 140px;
 }
-
-header nav ul li a{
-    padding: 10px 20px;
+.nav li:hover > ul{
     display: block;
-    color: #ffffff;
-    text-decoration: none;
 }
-header nav ul li a:hover{
-    background:#4b45a0b9; 
+.nav li ul li{
+    position: relative;
 }
-header li:hover > ul{
-    display: block; 
+.nav li ul li UL {
+    right: -140px;
+    top: 0px;
 }
