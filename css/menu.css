@@ -1,3 +1,43 @@
-header nav {
-    background: 
+
+*{
+    padding: 0px;
+    margin: 0px;
 }
+
+ul, ol{
+    list-style: none;
+}
+.nav li a {
+    background-color: #0f1fb4bd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav li a:hover {
+    background-color: #2934999f;
+}
+    
+
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display: none; 
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li UL {
+    right: -140px;
+    top: 0px;
+}
+img{
+    align-content: center;
+}
+/*#0f1fb4bd, 
