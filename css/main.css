@@ -1,17 +1,18 @@
 *{
     margin: 0px;
-    padding: 0px ;
-}
-body{
-    background: #e6e6e6 
+    padding: 0px;
 }
 
+
 header, .main, aside{
-    background: #fff;
     width: 90%;
     max-width: 1000px;
     margin: 20px auto;
+}
 
+.main .articles{
+    width: 70%;
+    float: left;
 }
 
 img{
@@ -19,6 +20,6 @@ img{
     width: auto;
 
 }
-.main, aside{
+.main aside{
     clear: both;
 }
