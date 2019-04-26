@@ -10,6 +10,8 @@ body{
 header, .main, footer{
     width: 90%;
     max-width: 1000px;
+    height: 40px;
+    min-height: 40px;
     margin: 20px auto;
 }
 
@@ -40,8 +42,3 @@ footer{
     text-align: center;
 }
 
-.image{
-    clear: both;
-    margin:10px auto;
-	display:block;
-}
