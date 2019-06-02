@@ -3,30 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="descrption" content="Es el projecto del tercer parcial de mi clase programacion">
-        <title>Rol</title>
+        <title>Inicio</title>
         <link rel="stylesheet" href="css/imagenes.css">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/menu.css">
         <link rel="stylesheet" href="css/main.css">
+        <script>
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
     </head>
 
-    <body>
+    <body onLoad="MM_preloadImages('images/log-ios-2.jpg','images/log-andro-2.png')">
         <header>
             <nav>
                 <ul class="nav">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="todos_los_heroes.html">Heroes</a>
                         <ul>
-                            <li><a href="rol.html">Rol</a>
-                                <ul>
-                                    <li><a href="adc.html">ADC</a></li>
-                                    <li><a href="support.html">Apoyo</a></li>
-                                    <li><a href="asesinos.html">Asesinos</a></li>
-                                    <li><a href="combatientes.html">Combatientes</a></li>
-                                    <li><a href="magos.html">Magos</a></li>
-                                    <li><a href="tanque.html">Tanques</a></li>
-                                </ul>
-                            </ul>
+                            <li><a href="rol.html">Rol</a></li>
+                        </ul>
                     </li>
                     <li><a href="">Contacto</a>
                         <ul>
@@ -42,23 +57,58 @@
             </nav>
         </header>
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ffBd-mt3lQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="image"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/K05jAgEyskA?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="imagez"></iframe>
         </div>
         <section class="main">
                 <section class="articles">
-                    <article>
-                        <h2>Venta de heroes de Mobile Legends: Bang Bang</h2>
-                        <p>Venta de todos los heroes <a href="rol.html">aqui</a></p>
-                    </article>
+                        <article>
+                            <h2 class="image">Tabla de precios de heroes Apoyo</h2>
+                            <table>
+                                <tr>
+                                    <td class="inf">Heroe</td>
+                                    <td class="inf">Precio</td>
+                                    <td>Imagen</td>
+                                </tr>
 
-                    <article>
-                        <h2></h2>
-                        <p></p>
-                    </article>
+                                <tr>
+                                    <td class="inf">Angela</td>
+                                    <td class="inf">$240.00</td>
+                                    <td><img src="images/Apoyo/Angela.png" alt="Heroe angela" class="tab"></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="inf">Heroe</td>
+                                    <td class="inf">Precio</td>
+                                    <td >Imagen</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="inf">Heroe</td>
+                                    <td class="inf">Precio</td>
+                                    <td>Imagen</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="inf">Heroe</td>
+                                    <td class="inf">Precio</td>
+                                    <td>Imagen</td>
+                                </tr>
+
+                            </table>
+                        </article>                    
                 </section>
                 <aside>
-                    <h3>Heroes mas vendidos</h3>
-                    <p>Lista de heroes mas vendidos</p>
+                    <h3><a href="los_mas_vendidos.html">Heroes mas vendidos segun cada rol</a></h3>
+                    <ul>
+                        <li>Tigreal (Tanque)</li>
+                        <li>Martis (Combatiente)</li>
+                        <li>Alucard (Asesino)</li>
+                        <li>Irithel (Tirador)</li>
+                        <li>Nana (Mago)</li>
+                        <li>Rafaela (Apoyo)</li>
+					</ul>
+                </aside>
+                    
                 </aside>
         </section>
         <footer>
