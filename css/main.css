@@ -42,3 +42,7 @@ footer{
     text-align: center;
 }
 
+p a:hover{
+    font-size: 30px;
+    color: #00ff2a
+}
